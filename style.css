@@ -5,16 +5,47 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  color: #fff;
+}
+
 .container {
   width: 70%;
   height: 700px;
-  margin: 0 auto;
-  background-color: aqua;
+  margin: 10px auto;
+  background-color: rgb(44, 44, 255);
   border-radius: 10px;
 }
 
+.container-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-input input {
+  width: 70%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 0 10px;
+}
+
+.container-input button {
+  width: 20%;
+  border: none;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: chartreuse;
+  cursor: pointer;
+}
+
 img {
-  width: 30px;
+  width: 35px;
+  cursor: pointer;
 }
 
 ul li {
