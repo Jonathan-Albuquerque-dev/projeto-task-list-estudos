@@ -74,3 +74,8 @@ ul li {
   background-color: aliceblue;
   padding: 10px;
 }
+
+.done {
+  background-color: greenyellow;
+  text-decoration: line-through;
+}
