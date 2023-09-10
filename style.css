@@ -11,6 +11,7 @@ h1 {
   padding: 15px 0;
   color: #fff;
 }
+/* Estilização do container do input e o botao*/
 
 .container {
   width: 55%;
@@ -50,6 +51,7 @@ h1 {
   background-color: rgba(128, 255, 0, 0.856);
 }
 
+/* Estilização do container de tarefas */
 img {
   width: 35px;
   cursor: pointer;

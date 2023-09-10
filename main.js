@@ -4,6 +4,7 @@ const taksContainer = document.querySelector(".taks-list");
 
 let taks = [];
 
+// função para adicionar uma tarrefa
 function addTaks() {
   taks.push({
     tarefa: input.value,
@@ -13,6 +14,7 @@ function addTaks() {
   input.value = "";
 }
 
+// função que renderiza a tarefa
 function viewTaks() {
   let newList = "";
 
@@ -30,14 +32,17 @@ function viewTaks() {
   taksContainer.innerHTML = newList;
 }
 
+// função que completa a tarrefa
 function taskComplet(index) {
   taks[index].status = !taks[index].status;
   viewTaks();
 }
 
+// função que deleta a tarrefa
 function deleteTaks(index) {
   taks.splice(index, 1);
   viewTaks();
 }
 
+// evento de click no botao
 btn.addEventListener("click", addTaks);
